@@ -29,6 +29,7 @@ function App() {
         <img
           src={n1}
           className=" absolute top-0 right-0 opacity-0 max-w-[90dvw] md:opacity-50 -z-10"
+          alt="Nightnoise character"
         />
         <Navbar />
 
