@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "heavy";
+  src: url("./assets/fonts/HEAVYWEI.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "fty";
+  src: url("./assets/fonts/FTY.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@layer components {
+  .underline-effect {
+    @apply relative heading-text p-0;
+  }
+
+  .underline-effect::after {
+    @apply content-[''] absolute w-full h-1 left-0 bottom-[-8px] bg-white origin-bottom-right hover:origin-bottom-left scale-x-0 hover:scale-x-100 transition-transform duration-300;
+  }
+
+  .heading-text {
+    @apply p-4 font-fty text-2xl tracking-wider uppercase cursor-pointer font-extrabold text-white;
+  }
+
+  .underline-effect-title {
+    @apply relative heading-text-title p-0;
+  }
+
+  .underline-effect-title::after {
+    @apply content-[''] absolute w-20 h-1 left-0 bottom-[-8px] bg-yellow-300 origin-bottom-right hover:origin-bottom-left scale-x-0 hover:scale-x-100 transition-transform duration-300;
+  }
+
+  .heading-text-title {
+    @apply p-4 font-fty text-3xl uppercase cursor-pointer font-extrabold bg-gradient-to-r from-yellow-400 to-white inline-block text-transparent bg-clip-text;
+  }
+}
+
+body {
+  @apply bg-cover bg-center bg-no-repeat;
+  background-image: url('./img/bg.png');
+}
