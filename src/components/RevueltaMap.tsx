@@ -1,41 +1,20 @@
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import L from "leaflet";
-import "leaflet/dist/leaflet.css";
-
-// Fix para que aparezcan los íconos del marker en producción
-delete (L.Icon.Default.prototype as any)._getIconUrl;
-L.Icon.Default.mergeOptions({
-  iconRetinaUrl:
-    "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon-2x.png",
-  iconUrl:
-    "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png",
-  shadowUrl:
-    "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png",
-});
-
-export default function RevueltaMap(): JSX.Element {
+export default function RevueltaMap() {
   return (
-    <section
-      aria-label="Ubicación de Sala La Revuelta en el mapa"
+    <div
+      role="region"
+      aria-label="Mapa de ubicación de Sala La Revuelta en Alicante"
       className="w-full max-w-[90dvw] rounded-2xl overflow-hidden shadow-lg"
     >
-      <MapContainer
-        center={[38.4018437, -0.5438731]} // Latitud, Longitud
-        zoom={16}
-        scrollWheelZoom={false}
-        style={{ height: "300px", width: "500px" }}
-      >
-        <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
-
-        <Marker position={[38.4018437, -0.5438731]}>
-          <Popup>
-            📍 Sala La Revuelta <br /> Alicante, España
-          </Popup>
-        </Marker>
-      </MapContainer>
-    </section>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3126.714765756358!2d-0.5438731246192465!3d38.40184367579266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6233f5c9acec63%3A0xaac04836dc905cb1!2sSala%20La%20Revuelta!5e0!3m2!1ses!2ses!4v1756127823097!5m2!1ses!2ses"
+        title="Mapa de ubicación de Sala La Revuelta en Alicante"
+        width="400"
+        height="400"
+        style={{ border: 0 }}
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
   );
 }
