@@ -67,7 +67,7 @@ export default function HeroBanner() {
 
           <h2
             id="evento-sabado-title"
-            className="underline-effect-title md:text-5xl text-4xl"
+            className="underline-effect-title text-5xl"
           >
             Nightnoise Fest
           </h2>
