@@ -5,7 +5,7 @@ import "swiper/css/pagination";
 import dk from "../img/dk.webp";
 import b13 from "../img/13b.jpg";
 import tura from "../img/tura.jpg";
-import llama from "../img/llama.jpg";
+import llama from "../img/llama.jpeg";
 
 const imgs = [
   {
@@ -35,7 +35,8 @@ const imgs = [
     _id: "4",
     title: "La Llama",
     imageUrls: [llama],
-    description: "DIY RAW PUNK",
+    description:
+      "Banda de punk-rock alicantina, formada en 2023, con dos EP en sus espaldas.",
     link: "https://open.spotify.com/intl-es/artist/4W00mJhEtB2JeVn5U3b0Fn",
   },
 ];
@@ -50,7 +51,7 @@ const HeroSlider: React.FC = () => {
         autoplay={{ delay: 5000, disableOnInteraction: true }}
         pagination={{ clickable: true }}
         loop
-        className="w-full h-[50vh] sm:h-[60vh] lg:h-[80vh]"
+        className="w-full h-[80vh] sm:h-[80vh] lg:h-[95vh]"
       >
         {imgs.map((service) => (
           <SwiperSlide
