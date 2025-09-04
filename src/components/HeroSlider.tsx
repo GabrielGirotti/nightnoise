@@ -21,14 +21,14 @@ const imgs = [
     title: "Donkey Kick",
     imageUrls: [dk],
     description:
-      "Banda nacida en Benidorm combinando la energía del punk con el psychobilly más crudo.",
+      "Nacidos en Benidorm combinando la energía del punk con el psychobilly más crudo.",
     link: "https://donkey-kick.netlify.app/",
   },
   {
     _id: "3",
     title: "Los Turanga",
     imageUrls: [tura],
-    description: "Proyecto instrumental de música surf sin contemplaciones.",
+    description: "Banda alicantina de Surf, reverb y rock'n'roll sin contemplaciones.",
     link: "https://open.spotify.com/intl-es/artist/1Ea9aapW8cwpUEQnl0KyMF",
   },
   {
