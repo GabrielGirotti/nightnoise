@@ -17,7 +17,7 @@ const EventFlyerModal: React.FC<EventFlyerModalProps> = ({
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4"
       onClick={onClose}
     >
       {/* Contenido del modal */}
