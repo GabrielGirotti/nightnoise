@@ -34,12 +34,10 @@ function App() {
         <Navbar />
 
         <About />
-
+        <Home />
+        <HeroSlider />
         <HeroBanner />
 
-        <Home />
-
-        <HeroSlider />
         <Sponsors />
 
         <Footer />

@@ -94,7 +94,7 @@ export default function HeroBanner() {
           </header>
 
           <section className="flex flex-col justify-center text-center space-y-2">
-            <p className="md:text-lg text-base text-gray-200 max-w-md mx-auto">
+            <p className="md:text-lg text-base text-gray-200 max-w-md mx-auto bg-stone-600 p-1">
               En vivo:
             </p>
             <ul className="flex flex-col justify-center items-center list-none list-inside font-bold font-heavy  tracking-wide text-4xl text-gray-200 max-w-md mx-auto">
@@ -105,19 +105,19 @@ export default function HeroBanner() {
             </ul>
             <div className=" flex flex-col md:flex-row md:gap-10">
               <article>
-                <p className="text-lg  text-gray-200 max-w-md mx-auto pt-4">
+                <p className="text-lg  text-gray-200 max-w-md mx-auto pt-4 underline">
                   DJs:
                 </p>
-                <ul className="text-lg  font-bold text-gray-200 max-w-md mx-auto">
+                <ul className="text-xl font-bold text-gray-200 max-w-md mx-auto font-fty tracking-wider">
                   <li>Jess VZ</li>
                   <li>Acho! El Kadhe</li>
                 </ul>
               </article>
               <article>
-                <p className="text-lg  text-gray-200 max-w-md mx-auto pt-4">
+                <p className="text-lg  text-gray-200 max-w-md mx-auto pt-4 underline">
                   Stands:
                 </p>
-                <ul className="text-lg  font-bold text-gray-200 max-w-md mx-auto pb-2">
+                <ul className="text-xl font-bold text-gray-200 max-w-md mx-auto font-fty tracking-wider">
                   <li>Rebel Yell</li>
                   <li>Pipus Records</li>
                 </ul>

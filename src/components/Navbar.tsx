@@ -22,12 +22,13 @@ export default function Navbar() {
       {/* Desktop nav */}
       <div className=" md:flex hidden md:flex-row flex-col items-center  p-4 ">
         <nav className="flex gap-10 items-center justify-center">
-          <HashLink smooth to="#eventos" className="underline-effect">
-            Eventos
-          </HashLink>
           <HashLink smooth to="#bandas" className="underline-effect">
             Bandas
           </HashLink>
+          <HashLink smooth to="#eventos" className="underline-effect">
+            Eventos
+          </HashLink>
+
           <HashLink smooth to="#auspician" className="underline-effect">
             Auspician
           </HashLink>
@@ -87,20 +88,21 @@ export default function Navbar() {
           <nav className="flex flex-col gap-8 items-center mt-28 ">
             <HashLink
               smooth
-              to="/#eventos"
-              className="underline-effect"
-              onClick={() => setMenuOpen(false)}
-            >
-              Eventos
-            </HashLink>
-            <HashLink
-              smooth
               to="/#bandas"
               className="underline-effect"
               onClick={() => setMenuOpen(false)}
             >
               Bandas
             </HashLink>
+            <HashLink
+              smooth
+              to="/#eventos"
+              className="underline-effect"
+              onClick={() => setMenuOpen(false)}
+            >
+              Eventos
+            </HashLink>
+
             <HashLink
               smooth
               to="/#auspician"
