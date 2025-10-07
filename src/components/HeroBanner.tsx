@@ -97,7 +97,7 @@ export default function HeroBanner() {
             <p className="md:text-lg text-base text-gray-200 max-w-md mx-auto bg-stone-600 p-1">
               En vivo:
             </p>
-            <ul className="flex flex-col justify-center items-center list-none list-inside font-bold font-heavy  tracking-wide text-4xl text-gray-200 max-w-md mx-auto">
+            <ul className="flex flex-col justify-center items-center list-none list-inside font-bold font-heavy  tracking-wide text-6xl text-gray-200 max-w-md mx-auto">
               <li>13 Bats</li>
               <li>Donkey Kick</li>
               <li>Los Turanga</li>
@@ -108,7 +108,7 @@ export default function HeroBanner() {
                 <p className="text-lg  text-gray-200 max-w-md mx-auto pt-4 underline">
                   DJs:
                 </p>
-                <ul className="text-xl font-bold text-gray-200 max-w-md mx-auto font-fty tracking-wider">
+                <ul className="text-3xl font-bold text-gray-200 max-w-md mx-auto font-fty tracking-wider">
                   <li>Jess VZ</li>
                   <li>Acho! El Kadhe</li>
                 </ul>
@@ -117,7 +117,7 @@ export default function HeroBanner() {
                 <p className="text-lg  text-gray-200 max-w-md mx-auto pt-4 underline">
                   Stands:
                 </p>
-                <ul className="text-xl font-bold text-gray-200 max-w-md mx-auto font-fty tracking-wider">
+                <ul className="text-3xl font-bold text-gray-200 max-w-md mx-auto font-fty tracking-wider">
                   <li>Rebel Yell</li>
                   <li>Pipus Records</li>
                 </ul>
