@@ -1,6 +1,4 @@
 import { useState } from "react";
-import n2 from "../img/n2.png";
-
 import RevueltaMap from "./RevueltaMap";
 import EventFlyerModal from "./EventFlyerModal";
 
