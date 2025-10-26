@@ -87,7 +87,7 @@ export default function HeroBanner() {
               className="cursor-pointer text-amber-950 font-bold p-4 py-2 bg-yellow-400 hover:bg-[#260617] hover:text-white rounded text-sm transition duration-300 text-center"
             >
               <time dateTime="2025-11-08T20:00">
-                Sábado 8 de noviembre - 20hs
+                Sábado 8 de noviembre - 18.30hs
               </time>
               <p className="uppercase font-black text-base">Sala La Revuelta</p>
               <p className=" text-sm">Ver cartel</p>
