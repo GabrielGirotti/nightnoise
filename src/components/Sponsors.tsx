@@ -1,26 +1,48 @@
 import { useInView } from "../hooks/useInView";
 import rebell from "../img/rebel.png";
-import jendrix from "../img/jendrix.png";
-import revuelta from '../img/rev.png'
+import revuelta from "../img/rev.png";
+import cool from "../img/cool.png";
+import poli from "../img/poli.png";
+import tat from "../img/tat.png";
+import pop from "../img/pop.png";
 
 const sponsors = [
   {
     _id: "1",
+    title: "Mr Cool Craft Beer",
+    imageUrls: cool,
+    link: "https://www.instagram.com/mrcoolcatcraftbeer/",
+  },
+  {
+    _id: "2",
     title: "Rebell Yell",
     imageUrls: rebell,
     link: "https://www.instagram.com/rebelyellmerchan/",
   },
+
   {
-    _id: "2",
-    title: "Jendrix bar",
-    imageUrls: jendrix,
-    link: "https://www.instagram.com/jendrix.rock.bar/",
-  },
-    {
     _id: "3",
     title: "Sala la revuelta",
     imageUrls: revuelta,
     link: "https://www.instagram.com/sala_la_revuelta/",
+  },
+  {
+    _id: "4",
+    title: "La Poligonera",
+    imageUrls: poli,
+    link: "",
+  },
+    {
+    _id: "5",
+    title: "Think Tattoo",
+    imageUrls: tat,
+    link: "https://www.instagram.com/think_tattoo_alicante/",
+  },
+      {
+    _id: "6",
+    title: "Poppins",
+    imageUrls: pop,
+    link: "https://www.instagram.com/poppins7776/",
   },
 ];
 export default function Sponsors() {
@@ -43,7 +65,7 @@ export default function Sponsors() {
               id={sp._id}
               key={sp._id}
               href={sp.link}
-              className="hover:scale-105 transition duration-300 w-[130px] md:w-[200px]"
+              className="hover:scale-105 transition duration-300 w-[130px] md:w-[150px]"
             >
               <img src={sp.imageUrls} alt={sp.title} />
             </a>

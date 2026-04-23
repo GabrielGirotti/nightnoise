@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import Logo from "../img/logo.png";
-import { FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -26,7 +26,7 @@ export default function Navbar() {
             Bandas
           </HashLink>
           <HashLink smooth to="#eventos" className="underline-effect">
-            Eventos
+            Evento
           </HashLink>
 
           <HashLink smooth to="#auspician" className="underline-effect">
@@ -100,7 +100,7 @@ export default function Navbar() {
               className="underline-effect"
               onClick={() => setMenuOpen(false)}
             >
-              Eventos
+              Evento
             </HashLink>
 
             <HashLink
@@ -114,7 +114,7 @@ export default function Navbar() {
           </nav>
           <nav
             aria-label="Redes sociales de Nightnoise"
-            className="flex text-yellow-400 text-2xl cursor-pointer gap-4 mt-8"
+            className="flex text-[#ffe79c] text-2xl cursor-pointer gap-4 mt-8"
           >
             <a
               href="https://www.instagram.com/nightnoisefest/"
@@ -125,14 +125,7 @@ export default function Navbar() {
               <FaInstagram aria-hidden="true" />
             </a>
 
-            <a
-              href="https://www.facebook.com/nightnoisefest"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Facebook de NightNoise"
-            >
-              <FaFacebook aria-hidden="true" />
-            </a>
+            
           </nav>
         </div>
       </div>

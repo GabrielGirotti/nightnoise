@@ -38,11 +38,11 @@
   }
 
   .underline-effect-title::after {
-    @apply content-[''] absolute w-20 h-1 left-0 bottom-[-8px] bg-yellow-300 origin-bottom-right hover:origin-bottom-left scale-x-0 hover:scale-x-100 transition-transform duration-300;
+    @apply content-[''] absolute w-20 h-1 left-0 bottom-[-8px] bg-[#ffe79c] origin-bottom-right hover:origin-bottom-left scale-x-0 hover:scale-x-100 transition-transform duration-300;
   }
 
   .heading-text-title {
-    @apply p-4 font-fty text-3xl uppercase cursor-pointer font-extrabold bg-gradient-to-r from-yellow-400 to-white inline-block text-transparent bg-clip-text;
+    @apply p-4 font-fty text-3xl uppercase cursor-pointer font-extrabold bg-[#ffe79c] inline-block text-transparent bg-clip-text;
   }
 }
 

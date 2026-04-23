@@ -29,7 +29,7 @@ export default function HeroBanner() {
               dateTime="2025-11-08T20:00"
               className="text-xl text-gray-200 max-w-md mx-auto font-fty"
             >
-              Sábado 8 de noviembre
+              Sábado 13 de junio - 20.30hs
             </time>
 
             <h2
@@ -41,33 +41,32 @@ export default function HeroBanner() {
           </header>
 
           <section className="flex flex-col justify-center text-center space-y-2">
-            <p className="md:text-lg text-base text-gray-200 max-w-md mx-auto bg-stone-600 p-1">
+            <p className="md:text-lg text-base text-gray-200 max-w-md mx-auto bg-black p-1">
               En vivo:
             </p>
             <ul className="flex flex-col justify-center items-center list-none list-inside font-bold font-heavy  tracking-wide text-6xl text-gray-200 max-w-md mx-auto">
-              <li>13 Bats</li>
               <li>Donkey Kick</li>
-              <li>Los Turanga</li>
-              <li>La Llama</li>
+              <li>Terror V</li>
+              <li>Swamp Things</li>
+              <li>Boompats</li>
             </ul>
             <div className=" flex flex-col md:flex-row md:gap-10">
               <article>
-                <p className="text-lg  text-gray-200 max-w-md mx-auto pt-4 underline">
-                  DJs:
+                <p className="text-lg  text-[#ffe79c] max-w-md mx-auto pt-4 underline">
+                  AFTERPARTY:
                 </p>
                 <ul className="text-3xl font-bold text-gray-200 max-w-md mx-auto font-fty tracking-wider">
-                  <li>Jess VZ</li>
-                  <li>Acho! El Kadhe</li>
+                                <li>Dj Acho! El Kadhe</li>
                 </ul>
               </article>
               <article>
-                <p className="text-lg  text-gray-200 max-w-md mx-auto pt-4 underline">
+                <p className="text-lg  text-[#ffe79c] max-w-md mx-auto pt-4 underline">
                   Stands:
                 </p>
                 <ul className="text-3xl font-bold text-gray-200 max-w-md mx-auto font-fty tracking-wider">
                   <li>Rebel Yell</li>
-                  <li>Pipus Records</li>
-                </ul>
+                  <li>Poppins Retro Vintage</li>
+                                 </ul>
               </article>
             </div>
           </section>
@@ -82,10 +81,10 @@ export default function HeroBanner() {
                   "Flyer Sala La Revuelta"
                 )
               }
-              className="cursor-pointer text-amber-950 font-bold p-4 py-2 bg-yellow-400 hover:bg-[#260617] hover:text-white rounded text-sm transition duration-300 text-center"
+              className="cursor-pointer text-black font-bold p-4 py-2 bg-[#ffe79c] hover:bg-[#000000] hover:text-white rounded text-sm transition duration-300 text-center"
             >
-              <time dateTime="2025-11-08T20:00">
-                Sábado 8 de noviembre - 18.30hs
+              <time dateTime="2025-06-13T20:30">
+                Sábado 13 de junio - 20.30hs
               </time>
               <p className="uppercase font-black text-base">Sala La Revuelta</p>
               <p className=" text-sm">Ver cartel</p>

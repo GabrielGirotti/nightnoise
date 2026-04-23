@@ -2,22 +2,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import dk from "../img/dk.webp";
-import b13 from "../img/13b.jpg";
-import tura from "../img/tura.jpg";
-import llama from "../img/llama.jpeg";
+import dk from "../img/dk.jpg";
+import tv from "../img/tv.jpg";
+import st from "../img/st.jpg";
+import boom from "../img/boom.jpg";
 
 const imgs = [
   {
     _id: "1",
-    title: "13 Bats",
-    imageUrls: [b13],
-    description:
-      "Mezcla de Punk, Rockabilly y varios estilos que hacen a 13 Bats realmente únicos.",
-    link: "https://open.spotify.com/intl-es/artist/1XnPCxWUJkHpz91H21lKbt",
-  },
-  {
-    _id: "2",
     title: "Donkey Kick",
     imageUrls: [dk],
     description:
@@ -25,19 +17,27 @@ const imgs = [
     link: "https://donkey-kick.netlify.app/",
   },
   {
+    _id: "2",
+    title: "Terror V",
+    imageUrls: [tv],
+    description:
+      "Rock'n'roll con influencias de punk, metal y psichobilly, directo desde Mallorca.",
+    link: "https://open.spotify.com/intl-es/artist/3NPRlewsgVoosH03q65cP3?si=rwTyho_oSXqJvYZTE5BSQg",
+  },
+  {
     _id: "3",
-    title: "Los Turanga",
-    imageUrls: [tura],
-    description: "Banda alicantina de Surf, reverb y rock'n'roll sin contemplaciones.",
-    link: "https://open.spotify.com/intl-es/artist/1Ea9aapW8cwpUEQnl0KyMF",
+    title: "Swamp Thing",
+    imageUrls: [st],
+    description: "Desde Tarragona con influencias Rockabilly, Garage, Punkrock y Psychobilly",
+    link: "https://open.spotify.com/intl-es/artist/1Ez2hYvDzfG3TrscjY2GW3?si=5hWne8A5RMuF_nmNJxA-3Q",
   },
   {
     _id: "4",
-    title: "La Llama",
-    imageUrls: [llama],
+    title: "Boompats",
+    imageUrls: [boom],
     description:
-      "Banda de punk-rock alicantina, formada en 2023, con dos EP en sus espaldas.",
-    link: "https://open.spotify.com/intl-es/artist/4W00mJhEtB2JeVn5U3b0Fn",
+      "Dúo de garage 60s directamente desde Alcoi.",
+    link: "https://losboompats.bandcamp.com/album/los-boompats-cantan-en-ingl-s",
   },
 ];
 
@@ -79,7 +79,7 @@ const HeroSlider: React.FC = () => {
                   href={service.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className=" w-28 text-amber-950 font-bold p-3 py-2 bg-yellow-400 hover:bg-[#260617] hover:text-white rounded text-sm transition duration-300"
+                  className=" w-28 text-black font-bold p-3 py-2 bg-[#ffe79c] hover:bg-[#000000] hover:text-white rounded text-sm transition duration-300"
                   aria-label={`Escuchar a ${service.title}`}
                 >
                   Escúchalos!

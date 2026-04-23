@@ -1,5 +1,5 @@
 import logo from "../img/logo.png";
-import { FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -16,7 +16,7 @@ export default function Footer() {
 
       <nav
         aria-label="Redes sociales de NightNoise"
-        className="flex text-yellow-400 text-2xl gap-4 my-4"
+        className="flex text-[#ffe79c] text-2xl gap-4 my-4"
       >
         <a
           href="https://www.instagram.com/nightnoisefest/"
@@ -28,24 +28,16 @@ export default function Footer() {
           <FaInstagram aria-hidden="true" />
         </a>
 
-        <a
-          href="https://www.facebook.com/nightnoisefest"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Facebook de NightNoise"
-          className="focus:outline focus:outline-yellow-400 hover:scale-110 transition-transform"
-        >
-          <FaFacebook aria-hidden="true" />
-        </a>
+    
       </nav>
 
-      <small className="text-xs text-zinc-500 mt-2">
+      <small className="text-xs text-white mt-2">
         Hecho por{" "}
         <a
           href="https://gabrielgirotti.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-orange-300 transition"
+          className="hover:text-[#ffe79c] transition"
           aria-label="Portafolio de Gabba en Netlify"
         >
           Gabba
