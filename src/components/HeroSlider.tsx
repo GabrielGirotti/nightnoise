@@ -21,12 +21,12 @@ const imgs = [
     title: "Terror V",
     imageUrls: [tv],
     description:
-      "Rock'n'roll con influencias de punk, metal y psichobilly, directo desde Mallorca.",
+      "Rock'n'roll con influencias de punk, metal y psychobilly, directo desde Mallorca.",
     link: "https://open.spotify.com/intl-es/artist/3NPRlewsgVoosH03q65cP3?si=rwTyho_oSXqJvYZTE5BSQg",
   },
   {
     _id: "3",
-    title: "Swamp Thing",
+    title: "Swamp Things",
     imageUrls: [st],
     description: "Desde Tarragona con influencias Rockabilly, Garage, Punkrock y Psychobilly",
     link: "https://open.spotify.com/intl-es/artist/1Ez2hYvDzfG3TrscjY2GW3?si=5hWne8A5RMuF_nmNJxA-3Q",
