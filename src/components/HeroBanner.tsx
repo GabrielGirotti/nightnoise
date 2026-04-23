@@ -56,7 +56,7 @@ export default function HeroBanner() {
                   AFTERPARTY:
                 </p>
                 <ul className="text-3xl font-bold text-gray-200 max-w-md mx-auto font-fty tracking-wider">
-                                <li>Dj Acho! El Kadhe</li>
+                  <li>Dj Acho! El Kadhe</li>
                 </ul>
               </article>
               <article>
@@ -66,19 +66,20 @@ export default function HeroBanner() {
                 <ul className="text-3xl font-bold text-gray-200 max-w-md mx-auto font-fty tracking-wider">
                   <li>Rebel Yell</li>
                   <li>Poppins Retro Vintage</li>
-                                 </ul>
+                </ul>
               </article>
             </div>
           </section>
-
-          <RevueltaMap />
+          <div>
+            <RevueltaMap />
+          </div>
 
           <div className="flex justify-center gap-4">
             <header
               onClick={() =>
                 handleOpenModal(
                   "/flyers/revuelta.jpg",
-                  "Flyer Sala La Revuelta"
+                  "Flyer Sala La Revuelta",
                 )
               }
               className="cursor-pointer text-black font-bold p-4 py-2 bg-[#ffe79c] hover:bg-[#000000] hover:text-white rounded text-sm transition duration-300 text-center"

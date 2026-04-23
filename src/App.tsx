@@ -22,13 +22,13 @@ function App() {
   return (
     <Router>
       <div
-        className={`bg-[url(${bg})] relative bg-cover bg-center transition-opacity duration-1000 ${
+        className={`bg-[url(${bg})]relative bg-cover bg-center transition-opacity duration-1000 ${
           fadeIn ? "opacity-100" : "opacity-0"
         }`}
       >
         <img
           src={n1}
-          className=" absolute top-0 right-0 opacity-20 max-w-[90dvw] md:opacity-20 -z-10"
+          className=" absolute top-0 right-0  opacity-20 max-w-[90dvw] md:opacity-20 -z-10"
           alt="Nightnoise character"
         />
         <Navbar />
