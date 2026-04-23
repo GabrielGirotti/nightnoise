@@ -33,7 +33,7 @@ const imgs = [
   },
   {
     _id: "4",
-    title: "Boompats",
+    title: "Los Boompats",
     imageUrls: [boom],
     description:
       "Dúo de garage 60s directamente desde Alcoi.",

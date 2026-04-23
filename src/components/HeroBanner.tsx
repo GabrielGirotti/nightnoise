@@ -48,7 +48,7 @@ export default function HeroBanner() {
               <li>Donkey Kick</li>
               <li>Terror V</li>
               <li>Swamp Things</li>
-              <li>Boompats</li>
+              <li>Los Boompats</li>
             </ul>
             <div className=" flex flex-col md:flex-row md:gap-10">
               <article>
