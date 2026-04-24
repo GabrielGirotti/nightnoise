@@ -66,7 +66,7 @@ export default function Navbar() {
                     ? "translate-x-0 opacity-100 pointer-events-auto"
                     : "-translate-x-full opacity-0 pointer-events-none"
                 }
-                 bg-[#180808] bg-[url(./img/bg.png)] bg-cover bg-center`}
+                 bg-[#741818] bg-[url(./img/bg.png)] bg-cover bg-center`}
           style={{ position: "absolute", left: 0, top: 0 }}
         >
           <button
